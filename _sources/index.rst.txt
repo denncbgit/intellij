@@ -1,0 +1,31 @@
+.. intellij documentation master file, created by
+   sphinx-quickstart on Sun Oct 20 12:11:34 2019.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Bienvenido al incio rapido de aprendizaje sobre Intellij Idea el Ide Para Java
+==============================================================================
+
+En Proyecto encontraras un manual para principiantes para los diferentes IDE(version community) creados por JetBrains
+
+Haz click en las imagenes para dirigirte al manual que necesites
+
+Manual Phpstorm
+
+.. image:: phpstorm.jpg
+        :width: 150
+	:target: https://zafarg-ops.github.io/ProjectNacho/index.html
+Manual Pycharm 
+
+.. image:: pycharm.jpg
+        :width: 150
+        :target: https://zafarg-ops.github.io/ProjectNacho/index.html
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+   
+   principal.rst
+
+
