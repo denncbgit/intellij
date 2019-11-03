@@ -17,7 +17,7 @@ Haz click en las imagenes para dirigirte al manual que necesites
 
 .. image:: pycharm.jpg
         :width: 150
-        :target: https://denncbgit.github.io/pycharm
+        :target: https://cf18abdullah.github.io/pycharm1
 
 .. image:: intellij.jpg
 	:width: 150

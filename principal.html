@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Introduccion &mdash; intellij  documentation</title>
+  <title>Primeros Pasos &mdash; intellij  documentation</title>
   
 
   
@@ -20,20 +20,11 @@
   <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
   
     
-      <script type="text/javascript">
-          var DOCUMENTATION_OPTIONS = {
-              URL_ROOT:'./',
-              VERSION:'',
-              LANGUAGE:'None',
-              COLLAPSE_INDEX:false,
-              FILE_SUFFIX:'.html',
-              HAS_SOURCE:  true,
-              SOURCELINK_SUFFIX: '.txt'
-          };
-      </script>
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
         <script type="text/javascript" src="_static/jquery.js"></script>
         <script type="text/javascript" src="_static/underscore.js"></script>
         <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
@@ -43,8 +34,7 @@
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Bienvenido al incio rapido de aprendizaje sobre los diferentes IDE’s creados por JetBrains" href="index.html" /> 
+    <link rel="search" title="Search" href="search.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -88,15 +78,26 @@
               
             
             
-              <p class="caption"><span class="caption-text">Contents:</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Introduccion</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#instalacion">Instalacion</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#creacion-de-un-proyecto">Creacion de un proyecto</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#ampliacion-del-ide">Ampliacion del IDE</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#interficies-grafiques">Interficies Grafiques</a></li>
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Primeros Pasos</a><ul>
+<li><a class="reference internal" href="#introduccion">Introduccion</a></li>
+<li><a class="reference internal" href="#instalacion">Instalacion</a></li>
+<li><a class="reference internal" href="#creacion-de-un-proyecto">Creacion de un proyecto</a></li>
+<li><a class="reference internal" href="#ampliacion-del-ide">Ampliacion del IDE</a></li>
+<li><a class="reference internal" href="#interficies-grafiques">Interficies Grafiques</a></li>
 </ul>
-
+</li>
+<li><a class="reference internal" href="#optimizacion-de-codigo">Optimización de codigo</a><ul>
+<li><a class="reference internal" href="#depurar-el-codigo">Depurar el codigo</a></li>
+<li><a class="reference internal" href="#puntos-de-interrupcion">Puntos de Interrupcion</a></li>
+<li><a class="reference internal" href="#refactoring">Refactoring</a></li>
+<li><a class="reference internal" href="#linterns">Linterns</a></li>
+<li><a class="reference internal" href="#control-de-versiones">Control de versiones</a></li>
+</ul>
+</li>
+</ul>
+</div>
             
           
         </div>
@@ -140,7 +141,7 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Introduccion</li>
+      <li>Primeros Pasos</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -159,14 +160,16 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="introduccion">
-<h1>Introduccion<a class="headerlink" href="#introduccion" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="primeros-pasos">
+<h1>Primeros Pasos<a class="headerlink" href="#primeros-pasos" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="introduccion">
+<h2>Introduccion<a class="headerlink" href="#introduccion" title="Permalink to this headline">¶</a></h2>
 <p>En el transcurso de este documento aprenderemos a utilizar la funciones basicas de intellij, el IDE (Interface Developer Enviroment) de Jetbrains
 enfocado en la programacion con Java.</p>
 <a class="reference internal image-reference" href="_images/logo.jpg"><img alt="_images/logo.jpg" src="_images/logo.jpg" style="width: 400px;" /></a>
 </div>
 <div class="section" id="instalacion">
-<h1>Instalacion<a class="headerlink" href="#instalacion" title="Permalink to this headline">¶</a></h1>
+<h2>Instalacion<a class="headerlink" href="#instalacion" title="Permalink to this headline">¶</a></h2>
 <p>Para hacernos con el instalador de esta aplicacion, debemos ir a la pagina oficial de Jetbrains donde encontraremos las diferentes versiones de Intellij
 que són:</p>
 <ul class="simple">
@@ -190,7 +193,7 @@ descargado.</p>
 <a class="reference internal image-reference" href="_images/B8.jpg"><img alt="_images/B8.jpg" src="_images/B8.jpg" style="width: 400px;" /></a>
 </div>
 <div class="section" id="creacion-de-un-proyecto">
-<h1>Creacion de un proyecto<a class="headerlink" href="#creacion-de-un-proyecto" title="Permalink to this headline">¶</a></h1>
+<h2>Creacion de un proyecto<a class="headerlink" href="#creacion-de-un-proyecto" title="Permalink to this headline">¶</a></h2>
 <p>Una vez abierto Intellij veremos que nos da la opcion de “Create New Project”.</p>
 <a class="reference internal image-reference" href="_images/CR1.jpg"><img alt="_images/CR1.jpg" src="_images/CR1.jpg" style="width: 400px;" /></a>
 <p>Elegimos el nombre del proyecto.</p>
@@ -209,7 +212,7 @@ descargado.</p>
 <a class="reference internal image-reference" href="_images/CR8.jpg"><img alt="_images/CR8.jpg" src="_images/CR8.jpg" style="width: 400px;" /></a>
 </div>
 <div class="section" id="ampliacion-del-ide">
-<h1>Ampliacion del IDE<a class="headerlink" href="#ampliacion-del-ide" title="Permalink to this headline">¶</a></h1>
+<h2>Ampliacion del IDE<a class="headerlink" href="#ampliacion-del-ide" title="Permalink to this headline">¶</a></h2>
 <p>En nuestro caso instalaremos el plugin Rainglow Color Schemes, que nos permitira tener mas variaciones de color predefinidas para nuestro IDE.</p>
 <p>Si apretamos Ctrl+Alt+S entraremos en Settings donde en la pestaña de plugins podremos utilizar la barra buscadora para encontrar el plugin deseado, despues de instalarlo nos hara reiniciar el IDE para poder utilizarlo</p>
 <a class="reference internal image-reference" href="_images/P1.jpg"><img alt="_images/P1.jpg" src="_images/P1.jpg" style="width: 400px;" /></a>
@@ -217,7 +220,7 @@ descargado.</p>
 <a class="reference internal image-reference" href="_images/P2.jpg"><img alt="_images/P2.jpg" src="_images/P2.jpg" style="width: 400px;" /></a>
 </div>
 <div class="section" id="interficies-grafiques">
-<h1>Interficies Grafiques<a class="headerlink" href="#interficies-grafiques" title="Permalink to this headline">¶</a></h1>
+<h2>Interficies Grafiques<a class="headerlink" href="#interficies-grafiques" title="Permalink to this headline">¶</a></h2>
 <p>Para instalar interficies grafiques debemos instalarlas a traves de plugins, en este caso utilizaremos el plugin JFormDesigner para crear formularios.</p>
 <a class="reference internal image-reference" href="_images/I1.jpg"><img alt="_images/I1.jpg" src="_images/I1.jpg" style="width: 400px;" /></a>
 <p>Creamos el nuevo formulario de la misma forma que creamos las clases</p>
@@ -225,19 +228,53 @@ descargado.</p>
 <p>Aqui vemos la ventana que nos proporciona el IDE a partir del plugin para crear interficies graficas.</p>
 <a class="reference internal image-reference" href="_images/I3.jpg"><img alt="_images/I3.jpg" src="_images/I3.jpg" style="width: 400px;" /></a>
 </div>
+</div>
+<div class="section" id="optimizacion-de-codigo">
+<h1>Optimización de codigo<a class="headerlink" href="#optimizacion-de-codigo" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="depurar-el-codigo">
+<h2>Depurar el codigo<a class="headerlink" href="#depurar-el-codigo" title="Permalink to this headline">¶</a></h2>
+<p>La depuración de codigos es el proceso de identificar y corregir errores, y lo que vamos a ver en la siguiente parte de la guia, seran las herramientas que nos da Intellij para facilitarnos esta parte del desarrollo.</p>
+</div>
+<div class="section" id="puntos-de-interrupcion">
+<h2>Puntos de Interrupcion<a class="headerlink" href="#puntos-de-interrupcion" title="Permalink to this headline">¶</a></h2>
+<p>los puntos de Interrupcion son puntos marcados por el programador que le permitiran ver los resultados del programa paso a paso, y asi identificar de manera rapida los fallos del codigo.</p>
+<p>Para poner un punto de interrupcion en intellij nos colocaremos en la linea que queramos que sea le punto de depuración y apretaremos “Ctrl+F8” de manera que aprecera un punto rojo al lado de la linea.</p>
+<a class="reference internal image-reference" href="_images/depu1.jpg"><img alt="_images/depu1.jpg" src="_images/depu1.jpg" style="width: 400px;" /></a>
+<p>Para comprobar el codigo según el punto de interrupción debemos hacer click en “mayus+F9” y veremos el contenido de la variables hasta el momento</p>
+<a class="reference internal image-reference" href="_images/depu2.jpg"><img alt="_images/depu2.jpg" src="_images/depu2.jpg" style="width: 400px;" /></a>
+</div>
+<div class="section" id="refactoring">
+<h2>Refactoring<a class="headerlink" href="#refactoring" title="Permalink to this headline">¶</a></h2>
+<p>El refactor se basa en cambiar codigo de manera eficiente.</p>
+<p>Una manera de hacerlo es cambiar el nombre de una función, para hacerlo deberemos apretra “Mayus+F6” encima de la funcion.</p>
+<a class="reference internal image-reference" href="_images/depu3.jpg"><img alt="_images/depu3.jpg" src="_images/depu3.jpg" style="width: 400px;" /></a>
+<p>Cuando cambiemos el nombre, veremos que se habra cambiado en todas la veces que aparecia en el programa.</p>
+</div>
+<div class="section" id="linterns">
+<h2>Linterns<a class="headerlink" href="#linterns" title="Permalink to this headline">¶</a></h2>
+<p>intellij tiene sus propios linterns que nos permitiran crear directrices para que el codigo generado por varios desarrolladores sea uniforme. Estos linterns se muestran el la parta de derecha de la pantalla, sinedo de color verde(Esta todo en orden), color amarillo(algun problema que no afectara a la funcionalidad del codigo), rojo (problemas funcionales).</p>
+<a class="reference internal image-reference" href="_images/depu4.jpg"><img alt="_images/depu4.jpg" src="_images/depu4.jpg" style="width: 400px;" /></a>
+</div>
+<div class="section" id="control-de-versiones">
+<h2>Control de versiones<a class="headerlink" href="#control-de-versiones" title="Permalink to this headline">¶</a></h2>
+<p>Intellij incorpora de manera nativa, la funcion de enlazar tu proyecto a git.</p>
+<a class="reference internal image-reference" href="_images/depu5.jpg"><img alt="_images/depu5.jpg" src="_images/depu5.jpg" style="width: 400px;" /></a>
+<p>Nos podremos logear en nuestra cuenta github.</p>
+<a class="reference internal image-reference" href="_images/depu6.jpg"><img alt="_images/depu6.jpg" src="_images/depu6.jpg" style="width: 400px;" /></a>
+<p>Tambien nos permite enlazar el proyecto con un repositorio de github.</p>
+<a class="reference internal image-reference" href="_images/depu7.jpg"><img alt="_images/depu7.jpg" src="_images/depu7.jpg" style="width: 400px;" /></a>
+<p>Y una vez estamos logeados y tenemos el proyecto enlazado podremos hacer commit.</p>
+<a class="reference internal image-reference" href="_images/depu8.jpg"><img alt="_images/depu8.jpg" src="_images/depu8.jpg" style="width: 400px;" /></a>
+<p>Finalmaente podremos ejecutar el git push.</p>
+<a class="reference internal image-reference" href="_images/depu9.jpg"><img alt="_images/depu9.jpg" src="_images/depu9.jpg" style="width: 400px;" /></a>
+</div>
+</div>
 
 
            </div>
            
           </div>
           <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-      
-        <a href="index.html" class="btn btn-neutral float-left" title="Bienvenido al incio rapido de aprendizaje sobre los diferentes IDE’s creados por JetBrains" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
-    </div>
   
 
   <hr/>

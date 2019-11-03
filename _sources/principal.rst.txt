@@ -1,5 +1,8 @@
+Primeros Pasos
+##############
+
 Introduccion
-############
+************
 
 En el transcurso de este documento aprenderemos a utilizar la funciones basicas de intellij, el IDE (Interface Developer Enviroment) de Jetbrains 
 enfocado en la programacion con Java.
@@ -8,7 +11,7 @@ enfocado en la programacion con Java.
         :width: 400
 
 Instalacion
-###########
+***********
 
 Para hacernos con el instalador de esta aplicacion, debemos ir a la pagina oficial de Jetbrains donde encontraremos las diferentes versiones de Intellij
 que són:
@@ -54,7 +57,7 @@ Seguidamente se te ofrece la posibilidad de añadir unos Plugins que intellij co
         :width: 400
 
 Creacion de un proyecto
-#######################
+***********************
 
 Una vez abierto Intellij veremos que nos da la opcion de "Create New Project".
 
@@ -97,7 +100,7 @@ En el caso del modo debbug nos ejecutara el programa avisandonos de los posibles
         :width: 400
 
 Ampliacion del IDE
-##################
+******************
 
 En nuestro caso instalaremos el plugin Rainglow Color Schemes, que nos permitira tener mas variaciones de color predefinidas para nuestro IDE.
 
@@ -112,7 +115,7 @@ Ahora volveremos a entrar a Settigs y veremos el aprtado del nuevo plugin que no
         :width: 400
 
 Interficies Grafiques
-#####################
+*********************
 
 Para instalar interficies grafiques debemos instalarlas a traves de plugins, en este caso utilizaremos el plugin JFormDesigner para crear formularios.
 
@@ -129,3 +132,76 @@ Aqui vemos la ventana que nos proporciona el IDE a partir del plugin para crear 
 .. image:: I3.jpg
         :width: 400
 
+Optimización de codigo
+######################
+
+Depurar el codigo
+*****************
+
+La depuración de codigos es el proceso de identificar y corregir errores, y lo que vamos a ver en la siguiente parte de la guia, seran las herramientas que nos da Intellij para facilitarnos esta parte del desarrollo.
+
+Puntos de Interrupcion
+**********************
+
+los puntos de Interrupcion son puntos marcados por el programador que le permitiran ver los resultados del programa paso a paso, y asi identificar de manera rapida los fallos del codigo.
+
+Para poner un punto de interrupcion en intellij nos colocaremos en la linea que queramos que sea le punto de depuración y apretaremos "Ctrl+F8" de manera que aprecera un punto rojo al lado de la linea.
+
+.. image:: depu1.jpg
+        :width: 400
+
+Para comprobar el codigo según el punto de interrupción debemos hacer click en "mayus+F9" y veremos el contenido de la variables hasta el momento
+
+.. image:: depu2.jpg
+        :width: 400
+
+Refactoring
+***********
+
+El refactor se basa en cambiar codigo de manera eficiente.
+
+Una manera de hacerlo es cambiar el nombre de una función, para hacerlo deberemos apretra "Mayus+F6" encima de la funcion.
+
+.. image:: depu3.jpg
+        :width: 400
+
+Cuando cambiemos el nombre, veremos que se habra cambiado en todas la veces que aparecia en el programa.
+
+
+Linterns
+********
+
+intellij tiene sus propios linterns que nos permitiran crear directrices para que el codigo generado por varios desarrolladores sea uniforme. Estos linterns se muestran el la parta de derecha de la pantalla, sinedo de color verde(Esta todo en orden), color amarillo(algun problema que no afectara a la funcionalidad del codigo), rojo (problemas funcionales).
+
+
+.. image:: depu4.jpg
+        :width: 400
+
+Control de versiones
+********************
+
+Intellij incorpora de manera nativa, la funcion de enlazar tu proyecto a git.
+
+.. image:: depu5.jpg
+        :width: 400
+
+Nos podremos logear en nuestra cuenta github.
+
+.. image:: depu6.jpg
+        :width: 400
+
+Tambien nos permite enlazar el proyecto con un repositorio de github.
+
+
+.. image:: depu7.jpg
+        :width: 400
+
+Y una vez estamos logeados y tenemos el proyecto enlazado podremos hacer commit.
+
+.. image:: depu8.jpg
+        :width: 400
+
+Finalmaente podremos ejecutar el git push.
+
+.. image:: depu9.jpg
+        :width: 400
